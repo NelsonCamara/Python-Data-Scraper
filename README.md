@@ -1,16 +1,16 @@
-# ⚽ SofaScore Football Data Scraper
+# SofaScore Football Data Scraper
 
 Outil de **web scraping** développé en **Python** pour extraire automatiquement les statistiques de joueurs de football depuis **SofaScore**. Le scraper parcourt **9 championnats européens**, collecte les profils de plus de **2000 joueurs**, extrait leurs statistiques détaillées (attributs, valeur marchande, forces/faiblesses, postes) et exporte le tout dans un fichier **Excel** structuré. Le projet intègre une architecture modulaire, une gestion robuste des erreurs, et un pipeline CLI complet.
 
 ---
 
-## 📖 À propos du projet
+## À propos du projet
 
 Ce scraper automatise la collecte de données footballistiques à grande échelle depuis SofaScore, une des plateformes de statistiques sportives les plus complètes. Il gère les pages dynamiques rendues en JavaScript via **Selenium**, contourne les protections anti-bot avec rotation de **User-Agents** via l'API ScrapeOps, et traite les données brutes à travers un pipeline de nettoyage, formatage et export. Le projet couvre 9 compétitions : Premier League, La Liga, Bundesliga, Serie A, Ligue 1, Liga Portugal, Eredivisie, Champions League et Europa League.
 
 ---
 
-## 🏗️ Architecture & Structure
+## Architecture & Structure
 
 ```
 Python-Data-Scraper/
@@ -34,7 +34,7 @@ Python-Data-Scraper/
 
 ---
 
-## 🔧 Compétences techniques démontrées
+##  Compétences techniques démontrées
 
 ### Web Scraping avancé (Selenium)
 
@@ -82,7 +82,7 @@ Python-Data-Scraper/
 
 ---
 
-## ▶️ Installation & Lancement
+## Installation & Lancement
 
 ### Prérequis
 - **Python** ≥ 3.8
@@ -122,7 +122,7 @@ python main.py format --input raw.txt --output clean.txt  # Fichiers personnalis
 
 ---
 
-## 📊 Données extraites
+## Données extraites
 
 ### Joueur de champ
 | Champ | Exemple |
@@ -146,7 +146,7 @@ python main.py format --input raw.txt --output clean.txt  # Fichiers personnalis
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 | Technologie | Usage |
 |-------------|-------|
@@ -162,13 +162,13 @@ python main.py format --input raw.txt --output clean.txt  # Fichiers personnalis
 
 ---
 
-## 📄 Championnats couverts
+## Championnats couverts
 
 Premier League (46 pages) · La Liga (35) · Bundesliga (37) · Serie A (28) · Ligue 1 (30) · Liga Portugal (26) · Eredivisie (26) · Champions League (29) · Europa League (30)
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 **Nelson Camara** — Étudiant en Master Informatique
 
