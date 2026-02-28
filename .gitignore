@@ -1,0 +1,31 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+
+# Output data
+output/*.txt
+output/*.xlsx
+output/*.csv
+
+# Chrome/Selenium
+chromedriver.exe
+chrome-data/
+geckodriver.log
+
+# Images
+players_pics/
+players_flags/
+
+# Credentials
+credentials.json
+token.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
